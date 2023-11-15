@@ -18,9 +18,9 @@ public class Stepfile extends base_class_fie {
     @Given("user opens the {string} and Login to the Dominos website")
     public void user_opens_the_and_login_to_the_dominos_website(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
-            ChromeOptions chromeoption = new ChromeOptions();
-            chromeoption.addArguments("incognito");
-            driver = new ChromeDriver(chromeoption);
+            ChromeOptions chromeoption1 = new ChromeOptions();
+            chromeoption1.addArguments("incognito");
+            driver = new ChromeDriver(chromeoption1);
         } else if (browser.equalsIgnoreCase("firefox")) {
             FirefoxOptions fire = new FirefoxOptions();
             fire.addArguments("private");
