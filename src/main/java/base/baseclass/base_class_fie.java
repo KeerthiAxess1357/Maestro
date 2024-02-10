@@ -36,9 +36,12 @@ public class base_class_fie {
 
     public static void log(String text) {
         System.out.println(text);
-
+//        System.out.println("keeeeeerth");
+        
     }
 
+    
+    
     public static void quit() {
         driver.quit();
     }
